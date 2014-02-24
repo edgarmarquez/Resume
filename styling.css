@@ -1,4 +1,4 @@
-body{font-family:sans-serif;
+body{font-family:tahoma, sans-serif;
      font-size:1em; 
 }
 
@@ -12,19 +12,19 @@ body{font-family:sans-serif;
  	height:1050px;
  }
 /*Top Header starts here*/
-header{background:#7DADC6;
+header{background:#f79621;
 	width:700px;
 	height:200px;
-
-	border-bottom: 10px groove #000;
+	border-bottom: 10px groove orange;
 	margin:auto;
 	margin-top:-50px;
 }
 
 header h1, header h2{; 
-    color:#000;
+    color:#fff;
     text-align: center;
     padding-top:30px;
+    text-shadow:2px 3px 0 #000;
 }
 
 h1{font-size:75px;
@@ -60,6 +60,11 @@ li{display:block;
    line-height: 1.5em;
    font-size: 1.15em;
    color:#464C45;/*color text*/	
+}
+
+span{
+	font-weight:bold;
+	color:#ff670f;
 }
 
 a{text-decoration:none;
@@ -100,7 +105,6 @@ h3{margin-top:10px;
 	height:300px;
     text-align: center;
     color:#464C45; 
-
 }
 
 div .left{
@@ -113,10 +117,10 @@ div .right{
 	margin-right:5px;
 }
 
-span{
-	font-weight:bold;
-	color:#ff670f;
-}/*educacion and experience ends*/
+div .edu_ex p{
+	line-height:.75em;
+}
+/*educacion and experience ends*/
 
 /*Skills starts*/
 div .profile_skills ul{
