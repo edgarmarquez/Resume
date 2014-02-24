@@ -8,7 +8,6 @@ body{font-family:sans-serif;
 }
 /*{outline:1px solid red;}*/
  #container{
- 	margin:0 auto;
  	width:700px;
  	height:1050px;
  }
@@ -16,8 +15,10 @@ body{font-family:sans-serif;
 header{background:#7DADC6;
 	width:700px;
 	height:200px;
-	margin-top:-50px;
+
 	border-bottom: 10px groove #000;
+	margin:auto;
+	margin-top:-50px;
 }
 
 header h1, header h2{; 
@@ -38,6 +39,7 @@ div .profile, div .profile_skills{
 	width:700px;
 	height:250px;
 	background:#fbdf93;
+	margin:auto;
 	
 }
 
@@ -73,6 +75,7 @@ div .edu_ex{
 	width:700px;
 	height:300px;
 	background:#fceabb;
+	margin:auto;
 }
 
  h3.experience, h3.education{
