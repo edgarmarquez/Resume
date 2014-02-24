@@ -1,0 +1,128 @@
+body{font-family:sans-serif;
+     font-size:1em; 
+}
+
+@font-face{font-family:Champagne and Limousines;
+	src: url();
+
+}
+/*{outline:1px solid red;}*/
+ #container{
+ 	margin:auto;
+ 	width:700px;
+ 	height:1050px;
+ }
+/*Top Header starts here*/
+header{background:#7DADC6;
+	height:200px;
+	margin-top:-50px;
+	border-bottom: 10px groove #000;
+}
+
+header h1, header h2{; 
+    color:#000;
+    text-align: center;
+    padding-top:30px;
+}
+
+h1{font-size:75px;
+   margin-bottom:-45px;
+}
+
+ h2{font-size:40px;
+ }/*Top Header ends here*/
+
+/*Personal Profile starts*/
+div .profile, div .profile_skills{
+	width:700px;
+	height:250px;
+	background:#fbdf93;
+	
+}
+
+div .profile h2, div .profile_skills h2{
+	text-align: center;
+    color:#258dc8;
+    font-weight: bold;
+    font-size:30px;
+    margin-top:-5px;
+    padding-top:20px;
+}
+
+ul {float:left;
+	top:20px;
+}
+
+li{display:block;
+   line-height: 1.5em;
+   font-size: 1.15em;
+   color:#464C45;/*color text*/	
+}
+
+a{text-decoration:none;
+  color:#000;
+  font-weight: bold
+}
+
+a:hover{color:#258dc8;}
+/*Personal Profile ends*/
+
+/*Educacion and Experience starts*/
+div .edu_ex{
+	width:700px;
+	height:300px;
+	background:#fceabb;
+}
+
+ h3.experience, h3.education{
+	font-size:30px;
+    color:#258dc8;
+    font-weight: bold;
+}
+
+h3{margin-top:10px;
+	padding-top:10px;
+	width:200px;
+	height:50px;
+}
+
+.left h3, .right h3{
+	padding-left:65px;
+}
+
+
+.left, .right{
+	width:340px;
+	height:300px;
+    text-align: center;
+    color:#464C45; 
+
+}
+
+div .left{
+	float:left;
+	margin-left:5px;
+}
+
+div .right{
+	float:right;
+	margin-right:5px;
+}
+
+span{
+	font-weight:bold;
+	color:#ff670f;
+}/*educacion and experience ends*/
+
+/*Skills starts*/
+div .profile_skills ul{
+	margin:0 auto;
+	margin-right:60px;
+	width:140px;
+	height:200px;
+
+}
+
+div .profile_skills li{
+	display: block;
+}
